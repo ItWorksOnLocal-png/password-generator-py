@@ -17,14 +17,6 @@ while True:
     # Lenght of the password and input type checker
     while True:
         password_lenght = input("Please specify the lenght of the password: ")
-        # if password_lenght > 500:
-        #     os.system('cls')
-        #     print("------------------------------------------------------------------------------------")
-        #     print("You can generate passwords up to 500 characters to prevent lock-ups")
-        #     print("\nTHE PROGRAM CRASHED DUE TO AN ERROR, PLEASE RE-EXECUTE TO GENERATE PASSWORDS! \nPLEASE WAIT...")
-        #     print("------------------------------------------------------------------------------------")
-        #     time.sleep(5)
-        #     quit()
 
         try:
             password_lenght = int(password_lenght)
